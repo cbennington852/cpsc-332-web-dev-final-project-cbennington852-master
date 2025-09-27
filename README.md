@@ -3,6 +3,7 @@ The goal of this project is to create a similar product to reddit, a forum posti
 Users would be able to login and anonymously discuss petcare and other things, such as pet insurance. Users will be able to ‘tag’ their posts, so that those posts have some sort of organization.
 
 
+
 ## Overview
 
 Meowit is a web application built using React for the front end and Node.js for the back end. It allows users to:
