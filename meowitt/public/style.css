@@ -1,0 +1,478 @@
+/*ADDED TOP NAV*/
+/* Add a black background color to the top navigation bar */
+.topnav {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.topnav button {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.topnav button:hover {
+    background-color: #777;
+}
+.topnav input[type="text"] {
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .topnav button, .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+
+/*CREATE POST FORM*/
+
+#createPostForm {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100px;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    width: 20%;
+    height: 150px;
+    background-color: transparent;
+    border-radius: 15px;
+    color: white;
+    font-size: 30px;
+}
+
+#feet button {
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 15px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+#feet button:hover {
+    background-color: #ff6b81;
+    transform: scale(1.05);
+}
+
+/*SIGN UP POP UP*/
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+.signUpBtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.signUpBtn:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+
+
+/*WELOMCE STUFF*/
+
+.welcome{
+    width: 60%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: ghostwhite;
+}
+
+
+.card {
+    width: 60%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: white;
+}
+.card img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+.card-bottom {
+    margin: unset;
+}
+
+
+.header {
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    display: flex;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+th {
+    font-weight: normal;
+}
+
+.container {
+    padding: 2px 16px;
+    border-radius: 5px 5px 0 0;
+    margin: auto;
+}
+body {
+    background: rgb(238,174,202);
+    background: linear-gradient(180deg, rgba(238,174,202,1) 0%, rgba(148,187,233,0.9108893557422969) 100%);
+}
+
+.card-top {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20px;
+}
+
+th {
+    padding-bottom: 60px;
+}
+
+
+
+.messageDraft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto; /* Center the container */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.messageDraft textarea {
+    width: 80%; /* Adjust width to leave space for the button */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; /* Prevent resizing */
+    min-height: 50px; /* Minimum height for the textarea */
+    margin-right: 10px; /* Space between textarea and button */
+    outline: none; /* Remove default outline */
+}
+
+.messageDraft textarea:focus {
+    border-color: #4a90e2; /* Change border color on focus */
+}
+
+.messageDraft button {
+    background-color: #4a90e2; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px;
+    padding: 10px 20px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+}
+
+.messageDraft button:hover {
+    background-color: #357ab8; /* Darker shade on hover */
+}
+
+#post-input {
+    width: 500px;
+}
+
+/*UPVOTE / DOWNVOTE*/
+.vote-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.vote-button {
+    background-color: transparent; /* Transparent background */
+    border: none; /* No border */
+    font-size: 24px; /* Font size for arrows */
+    cursor: pointer; /* Pointer cursor on hover */
+    padding: 5px; /* Padding around the button */
+    transition: color 0.2s ease; /* Smooth color transition */
+}
+.upvote {
+    color: grey; /* Color for upvote */
+}
+.upvote:hover {
+    color: darkgrey; /* Change color on hover */
+}
+
+.downvote {
+    color: grey; /* Color for downvote */
+}
+.downvote:hover {
+    color: darkgrey; /* Change color on hover */
+}
+
+.upvote:active {
+    color: orangered;
+}
+.upvote:focus {
+    color: orangered;
+}
+.downvote:active {
+    color: cornflowerblue;
+}
+.downvote:focus {
+    color: cornflowerblue;
+}
+
+#voteCount {
+    margin: 0 15px; /* Margin between buttons and count */
+    font-size: 24px; /* Font size for the count */
+}
+
+/**
+BANNNER
+ */
+
+.banner {
+    background-image: url("./catBanner.jpg"); /* Banner background color */
+    color: black; /* Text color */
+    text-align: center; /* Center-align text */
+    padding: 50px; /* Padding around the content */
+    opacity: 40%;
+    position: relative; /* Relative positioning for the button */
+    flex-direction: row;
+}
+
+.banner-title {
+    font-size: 36px; /* Font size for the title */
+    margin: 0; /* Remove default margin */
+}
+
+.banner-subtitle {
+    font-size: 20px; /* Font size for the subtitle */
+    margin: 10px 0; /* Margin around subtitle */
+}
+
+.banner-button {
+    background-color: #d9534f; /* Button color */
+    color: white; /* Button text color */
+    padding: 15px 30px; /* Button padding */
+    text-decoration: none; /* Remove underline from link */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Font size for button text */
+    transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.banner-button:hover {
+    background-color: #c9302c; /* Darker shade on hover */
+}
+
+
+
+/*************************
+SEARCH BAR
+ */
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #130f40;
+    font-family: 'Lato' !important;
+}
+.search-box{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+.input-search{
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: #22a6b3;
+    padding-right: 40px;
+    color:#fff;
+}
+.input-search::placeholder{
+    color:rgba(255,255,255,.5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.btn-search{
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color:#ffffff ;
+    background-color:transparent;
+    pointer-events: painted;
+}
+.btn-search:focus ~ .input-search{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+.input-search:focus{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+
+/*CREATE POST FORM*/
+
+
+
+

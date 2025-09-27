@@ -1,0 +1,121 @@
+[{
+  "_id": {
+    "$oid": "6733e0349e7cc4088d2f4a77"
+  },
+  "id": 44761,
+  "email": "sd sd sd ",
+  "password": "sssssssssssssss",
+  "username": "ds sd sd ",
+  "karma": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6733e2e3ba4d732afadc4159"
+  },
+  "id": 109284,
+  "email": "balls@gmail.com",
+  "password": "1234",
+  "username": "John Gonzaga",
+  "karma": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6733feb5da8f93f191158283"
+  },
+  "id": 1,
+  "email": "example@gmail.com",
+  "password": "1234",
+  "username": "Developer",
+  "karma": 4000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6734d3c02e603db5921ab9f2"
+  },
+  "id": 698124,
+  "email": "iugyugyugftyuhb@ygvcyvgyv.com",
+  "password": "vyrcyvyfxtcry",
+  "username": "tester",
+  "karma": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673692b8a9ec2852b9c6fe63"
+  },
+  "id": 216452,
+  "email": "Gonzaga@gmail.com",
+  "password": "carbattery",
+  "username": "Jhon Gonzaga",
+  "karma": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673e145842680128392bd810"
+  },
+  "id": 570154,
+  "email": "sdasdas",
+  "password": "dasdasd",
+  "username": "asdasda",
+  "karma": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6740afe244f26240ef96e9cb"
+  },
+  "id": 882562,
+  "email": "h8ogy",
+  "password": "8ogy",
+  "username": "y6",
+  "karma": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6740b05644f26240ef96e9ce"
+  },
+  "id": 964857,
+  "email": "0;var date=new Date(); do{curDate = new Date();}while(curDate-date<10000)",
+  "password": "0;var date=new Date(); do{curDate = new Date();}while(curDate-date<10000)",
+  "username": "0;var date=new Date(); do{curDate = new Date();}while(curDate-date<10000)",
+  "karma": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6740b0ba44f26240ef96e9fe"
+  },
+  "id": 173153,
+  "email": "SELECT * FROM ITEMS WHERE ID='",
+  "password": "SELECT * FROM ITEMS WHERE ID='",
+  "username": "SELECT * FROM ITEMS WHERE ID='",
+  "karma": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67414a8a0d4b80d95fecae2a"
+  },
+  "id": 855735,
+  "email": "test",
+  "password": "1234",
+  "username": "test",
+  "karma": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67414fa7affd60473244e5be"
+  },
+  "id": 297882,
+  "email": "111",
+  "password": "111",
+  "username": "111",
+  "karma": 1,
+  "__v": 0
+}]

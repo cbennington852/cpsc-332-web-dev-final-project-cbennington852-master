@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPSC 332 Final Project</title>
+    <style>
+        .container {
+            text-align: center;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            const dateElement = document.getElementById("date");
+            const today = new Date();
+            dateElement.innerHTML = today.toDateString();
+            dateElement.setAttribute("datetime", today.toISOString().split('T')[0]);
+        };
+    </script>
+</head>
+
+<body>
+    <header class="container">
+        <h1>CPSC 332 Final Project Presentation</h1>
+        <h2>Meowit</h2>
+        <h3>Charles Bennington</h3>
+        <time id="date" aria-live="polite" datetime="2024-12-06T13:53">
+            Fri Dec 6 2024
+        </time>
+        <p>Meowit, a forum posting app, modeled after reddit. </p>
+    </header>
+
+    <main>
+        <section aria-labelledby="functional-requirements">
+            <h2 id="functional-requirements">Functional Requirements:</h2>
+            <ol>
+                    <li>Users must be able to create an account (front + back)</li>
+                    <li>Users must be able to login to an account (front + back)</li>
+                    <li>Users must be able to create posts with a maximum of 1000 characters. (font + back)</li>
+                    <li>Users must be able to post pictures in posts (front + back)</li>
+                    <li>Users must be able to apply a title to their post with a maximum of 50 characters (front + back)</li>
+                    <li>Users must be able to apply tags to posts (front)</li>
+                    <ul>
+                        <li>Example: “cute cat photo”, “Orange cat”, “Silly cat”</li>
+                    </ul>
+                    <li>Users must be able to maintain and increase their current karma scores (front)</li>
+                    <li>Users must be able to view a user profile (front + back)</li>
+                    <li>Users must be able to view their current Karma (front)</li>
+                    <li>Users must be able to earn badges and awards from karma (front)</li>
+                    <li>Users must be able to search for posts by name (front + back)</li>
+
+                <!-- Additional list items as needed -->
+            </ol>
+        </section>
+    </main>
+</body>
+
+</html>

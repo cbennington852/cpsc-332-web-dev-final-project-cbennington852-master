@@ -1,0 +1,260 @@
+[{
+  "_id": {
+    "$oid": "67350f57bdede7321eb812c4"
+  },
+  "id": 997093,
+  "postTitle": "They call me the drink",
+  "postContent": "They call him the what????!??!",
+  "postUsername": "Developer",
+  "postDate": "11/13/2024, 12:43:03 PM",
+  "postImgSRC": "",
+  "userId": 1,
+  "postTags": "#carBattery",
+  "likes": [
+    1,
+    297882
+  ],
+  "dislikes": [
+    1,
+    297882
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67350f9dbdede7321eb812fe"
+  },
+  "id": 756860,
+  "postTitle": "My Cat Threw car batteries into the ocean",
+  "postContent": "Yeah, my cat threw car batteries into the ocean :(",
+  "postUsername": "Developer",
+  "postDate": "11/13/2024, 12:44:13 PM",
+  "postImgSRC": "https://picsum.photos/200",
+  "userId": 1,
+  "postTags": "",
+  "likes": [
+    1,
+    297882
+  ],
+  "dislikes": [
+    1,
+    297882
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67368692a9ec2852b9c6fc6d"
+  },
+  "id": 154983,
+  "postTitle": "car",
+  "postContent": "battery",
+  "postUsername": "Developer",
+  "postDate": "11/14/2024, 3:24:02 PM",
+  "postImgSRC": "",
+  "userId": 1,
+  "postTags": "#petCareTips",
+  "likes": [],
+  "dislikes": [
+    1
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67369149a9ec2852b9c6fe5a"
+  },
+  "id": 955276,
+  "postTitle": "My Cat ate car batteries!!",
+  "postContent": "Every morning, Zippy would start his engine, and instead of the usual humming sound of the motor, he would emit a soft, almost squeaky noise. It wasn't the sound of a normal car engine. It was the sound of something more... primal. Zippy had developed an appetite for car batteries.",
+  "postUsername": "Developer",
+  "postDate": "11/14/2024, 4:09:45 PM",
+  "postImgSRC": "",
+  "userId": 1,
+  "postTags": "",
+  "likes": [
+    1
+  ],
+  "dislikes": [
+    1
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6736ab67a9ec2852b9c6fe89"
+  },
+  "id": 243916,
+  "postTitle": "I can post pictures",
+  "postContent": "Posting time!",
+  "postUsername": "Jhon Gonzaga",
+  "postDate": "11/14/2024, 6:01:11 PM",
+  "postImgSRC": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwwj1hStsKlUyD9powO6n0j8KFpRx42eWKYw&s",
+  "userId": 216452,
+  "postTags": "#sillyPhoto",
+  "likes": [
+    1,
+    297882
+  ],
+  "dislikes": [
+    1,
+    297882
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673e161a48e70af8f600c1aa"
+  },
+  "id": 377343,
+  "postTitle": "Post Testing Sanitization",
+  "postContent": "yeah",
+  "postUsername": "Developer",
+  "postDate": "11/20/2024, 9:02:18 AM",
+  "postImgSRC": "https://www.recordnet.com/gcdn/presto/2021/03/22/NRCD/9d9dd9e4-e84a-402e-ba8f-daa659e6e6c5-PhotoWord_003.JPG",
+  "userId": 1,
+  "postTags": "",
+  "likes": [
+    1
+  ],
+  "dislikes": [
+    1
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6740ad0a4902140e07bfe2bc"
+  },
+  "id": 356082,
+  "postTitle": "my cat has ligma/???",
+  "postContent": "ligma balls??",
+  "postUsername": "Developer",
+  "postDate": "11/22/2024, 8:10:50 AM",
+  "postImgSRC": "https://picsum.photos/200/300",
+  "userId": 1,
+  "postTags": "",
+  "likes": [
+    1,
+    297882
+  ],
+  "dislikes": [
+    1,
+    297882
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6740b07144f26240ef96e9e4"
+  },
+  "id": 308863,
+  "postTitle": "0;var date=new Date(); do{curDate = new Date();}wh",
+  "postContent": "0;var date=new Date(); do{curDate = new Date();}while(curDate-date<10000)",
+  "postUsername": "0;var date=new Date(); do{curDate = new Date();}while(curDate-date<10000)",
+  "postDate": "11/22/2024, 8:25:21 AM",
+  "postImgSRC": "0;var date=new Date(); do{curDate = new Date();}while(curDate-date<10000)",
+  "userId": 964857,
+  "postTags": "",
+  "likes": [
+    964857
+  ],
+  "dislikes": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6740b0a744f26240ef96e9f6"
+  },
+  "id": 224088,
+  "postTitle": "SELECT * FROM ITEMS WHERE ID='",
+  "postContent": "SELECT * FROM ITEMS WHERE ID='",
+  "postUsername": "0;var date=new Date(); do{curDate = new Date();}while(curDate-date<10000)",
+  "postDate": "11/22/2024, 8:26:15 AM",
+  "postImgSRC": "SELECT * FROM ITEMS WHERE ID='",
+  "userId": 964857,
+  "postTags": "",
+  "likes": [
+    297882
+  ],
+  "dislikes": [
+    297882
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6740b1ae44f26240ef96ea28"
+  },
+  "id": 703305,
+  "postTitle": "Cars are exploding",
+  "postContent": "My cat ate a car battery and exploded",
+  "postUsername": "Developer",
+  "postDate": "11/22/2024, 8:30:38 AM",
+  "postImgSRC": "https://picsum.photos/200/300",
+  "userId": 1,
+  "postTags": "#sillyPhoto",
+  "likes": [
+    1
+  ],
+  "dislikes": [
+    1
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674231d5286110589921e4d5"
+  },
+  "id": 260609,
+  "postTitle": "test",
+  "postContent": "test",
+  "postUsername": "111",
+  "postDate": "11/23/2024, 11:49:41 AM",
+  "postImgSRC": "",
+  "userId": 297882,
+  "postTags": "",
+  "likes": [
+    297882
+  ],
+  "dislikes": [
+    297882
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6742329e6211e57c9b560ea9"
+  },
+  "id": 964544,
+  "postTitle": "dfhdfh",
+  "postContent": "dfbdfbd",
+  "postUsername": "111",
+  "postDate": "11/23/2024, 11:53:02 AM",
+  "postImgSRC": "",
+  "userId": 297882,
+  "postTags": "",
+  "likes": [
+    297882
+  ],
+  "dislikes": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674234d8a23ab891c086b54b"
+  },
+  "id": 47870,
+  "postTitle": "sdfsdfsdf",
+  "postContent": "sdfsdfsdf",
+  "postUsername": "111",
+  "postDate": "11/23/2024, 12:02:32 PM",
+  "postImgSRC": "",
+  "userId": 297882,
+  "postTags": "",
+  "likes": [
+    297882
+  ],
+  "dislikes": [],
+  "__v": 0
+}]
